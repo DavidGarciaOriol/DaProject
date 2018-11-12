@@ -14,7 +14,7 @@
     width: 12rem;
 }
 
-
+/* ============================================= */
 
 header{
     grid-column-start: 1;
@@ -36,10 +36,6 @@ nav{
     grid-template-columns: repeat(12, 1fr);
     border:solid black 1px;
 }
-
-
-
-
 
 body{
     display: grid;
