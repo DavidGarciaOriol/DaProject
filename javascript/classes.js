@@ -1,7 +1,8 @@
 class User{
 
-    constructor(name, email, verified){
+    constructor(id, name, email, verified){
 
+        this.id = id;
         this.name = name;
         this.email = email;
         this.verified = verified;
@@ -31,14 +32,39 @@ class User{
     set verified(verified){
         this._verified = verified;
     }
+
+    get id(){
+        return this._id;
+    }
+
+    set id(id){
+        this._id = id;
+    }
 }
 
 class Song{
 
-    constructor(link){
+    constructor(id, link){
 
+        this.id = id;
         this.link = link;
-        
+
+    }
+
+    get link(){
+        return this._link;
+    }
+
+    set link(link){
+        this._link = link;
+    }
+
+    get id(){
+        return this._id;
+    }
+
+    set id(id){
+        this._id = id;
     }
 
 }
