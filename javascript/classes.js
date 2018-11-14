@@ -83,3 +83,44 @@ class Genre{
         this._name = name;
     }
 }
+
+class Room{
+
+    constructor(maxUsers, numUsers, genreName){
+
+        this.maxUsers = maxUsers;
+        this.numUsers = numUsers;
+        this.genreName = genreName;
+
+    }
+
+    isFull(maxUsers, numUsers){
+        return (numUsers === maxUsers);
+    }
+
+    isEmpty(numUsers){
+        return (numUsers === 0);
+    }
+}
+
+/*class roomManager{
+
+    constructor(room){
+        this.room = room;
+    }
+
+    roomClosed(){
+
+    }
+
+    checkTimeOut(room){
+
+    }
+
+    closeRoom(room){
+        if (room.isFull()){
+            this.roomClosed();
+        }
+    }
+
+}*/
