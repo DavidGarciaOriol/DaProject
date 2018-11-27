@@ -1,20 +1,19 @@
 class User{
 
-    constructor(id, name, email, verified){
+    constructor(id, username, email){
 
         this.id = id;
-        this.name = name;
+        this.username = username;
         this.email = email;
-        this.verified = verified;
 
     }
 
-    get name(){
-        return this._name;
+    get username(){
+        return this._username;
     }
 
-    set name(name){
-        this._name = name;
+    set username(username){
+        this._username = username;
     }
 
     get email(){
@@ -23,14 +22,6 @@ class User{
 
     set email(email){
         this._email = email;
-    }
-
-    get verified(){
-        return this._verified;
-    }
-
-    set verified(verified){
-        this._verified = verified;
     }
 
     get id(){
@@ -86,11 +77,11 @@ class Genre{
 
 class Room{
 
-    constructor(maxUsers, numUsers, genreName){
+    constructor(maxUsers, numUsers, Genre){
 
         this.maxUsers = maxUsers;
         this.numUsers = numUsers;
-        this.genreName = genreName;
+        this.Genre = Genre;
 
     }
 
