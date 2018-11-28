@@ -1,6 +1,6 @@
 <?php
-    require_once '../setup.php';
-    require_once '../database/conexion.php';
+    require_once '../connectionSetup.php';
+    require_once '../database/connection.php';
     require_once '../database/helpers.php';
 
     if ( !empty($_SESSION) ){
@@ -12,7 +12,6 @@
         $username = trim($_POST['username']) ?? null;
         $password = trim($_POST['password']) ?? null;
 
-        // Validaciones
         // username:
         if ( empty($username) ){
             $errors['username']['empty'] = "Debes introducir un nombre de usuario.<br>";
@@ -29,7 +28,7 @@
         }
 
         if( empty($errors) ){
-            // Consulta para comprobar las credenciales del usuario
+
             $sql = "SELECT * FROM users WHERE username='$username' LIMIT 1";
             
             $login = mysqli_query($db, $sql);
@@ -62,4 +61,4 @@
         }
     }
 
-    require_once 'C:\xampp\htdocs\Project\DaProject\html\login.html';
+    require_once 'C:/xampp/htdocs/Project/DaProject/html/login.view.php';

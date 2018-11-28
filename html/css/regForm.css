@@ -2,7 +2,7 @@ body{
     background-color: #010101; 
 }
 
-.labels2{
+.reg-labels2{
     display: flex;
     flex-direction: row;
     border: solid darkgrey 2px;
@@ -18,27 +18,27 @@ body{
     margin: 1px;
 }
 
-.content{
+.reg-content{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 2fr 0.5fr 1fr;
+    grid-template-rows: 0.25fr 1fr 0.25fr 1fr;
 }
 
-.content .item{
+.reg-content .reg-item{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-.content .item2{
+.reg-content .reg-item2{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 3;
     grid-row-end: 4;
 }
 
-.labels{
+.reg-labels{
     display: flex;
     flex-direction: column;
     border: solid darkgrey 2px;
@@ -52,7 +52,7 @@ body{
     width: 100%;
 }
 
-.labeled{
+.reg-labeled{
     border-radius: 5px;
     border: solid black 1px;
     margin: 10px;
@@ -60,7 +60,7 @@ body{
     align-content: center;
 }
 
-.labeledButton{
+.reg-labeledButton{
     border-radius: 5px;
     border: solid black 2px;
     background-color: #00E9DE;

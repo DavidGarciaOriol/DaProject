@@ -6,9 +6,11 @@
     <title>Login Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="css/forms.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/logForm.css" />
+    <script src="./javascript/main.js"></script>
+    <script arc="./javascript/docCreate.js"></script>
+    
 </head>
 <body>
 
@@ -28,8 +30,8 @@
 
             <div class="labels2 item2">
 
-                <button id="subuttom" class="labeledButton" type="submit" value="Log-in">
-                <button class="labeledButton" type="button" value="Contraseña Olvidada">
+                <button id="subutton" class="labeledButton" type="submit" value="Log-in">
+                <button id="subutton2" class="labeledButton" type="button" value="Contraseña Olvidada">
 
             </div>
 
