@@ -1,19 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/regForm.css" />
-    <script src="./javascript/register.js"></script>
-    
-</head>
-<body>
+<?php require_once '../includes/header.php'; ?>
 
-    <form action="/DaProject/html/index.html" method="post">
+    <form action="/DaProject/html/index.php" method="post">
 
         <div class="reg-content">
 
@@ -28,7 +15,7 @@
                 <label for="reg_password">Contraseña.</label>
                 <input class="reg-labeled" type="password" id="reg_password" name="reg_password">
 
-                <label for="reg_confirm-password">Confirmar Contraseña</label>
+                <label for="reg_confirm-password">Confirmar Contraseña.</label>
                 <input class="reg-labeled" type="password" id="reg_confirm_password" name="reg_confirm_password">
             
             </div>
@@ -43,6 +30,5 @@
         </div> 
 
     </form>
-    
-</body>
-</html>
+
+    <?php require_once '../includes/footer.php'; ?>

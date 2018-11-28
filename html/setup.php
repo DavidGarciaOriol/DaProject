@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_URL', $_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST']."/".'superlists/');
+define('BASE_URL', $_SERVER['REQUEST_SCHEME']."://".$_SERVER['HTTP_HOST']."/".'Project/DaProject/html');
 define('BASE_PATH', __DIR__);
 
 define('DB_HOST', "localhost");

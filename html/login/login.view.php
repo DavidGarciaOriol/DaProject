@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Login Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/logForm.css" />
-    <script src="./javascript/main.js"></script>
-    <script arc="./javascript/docCreate.js"></script>
-    
-</head>
-<body>
+<?php require_once '../includes/header.php'; ?>
 
     <form action="/DaProject/html/index.html" method="post">
 
@@ -30,14 +16,13 @@
 
             <div class="labels2 item2">
 
-                <button id="subutton" class="labeledButton" type="submit" value="Log-in">
-                <button id="subutton2" class="labeledButton" type="button" value="Contraseña Olvidada">
+                <button id="subutton" class="labeledButton" type="submit"> Log-in </button>
+                <button id="subutton2" class="labeledButton" type="button"> Contraseña Olvidada </button>
 
             </div>
 
         </div> 
 
     </form>
-    
-</body>
-</html>
+
+    <?php require_once '../includes/footer.php'; ?>

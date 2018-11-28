@@ -1,4 +1,4 @@
-.navigate{
+/* .navigate{
     background-color: #333333;
     align-content: center;
     width: 1fr;
@@ -12,11 +12,11 @@
 .navitem{
     border: solid white 1px;
     width: 12rem;
-}
+} */
 
 /* ============================================= */
 
-header{
+/* header{
     grid-column-start: 1;
     grid-column-end: 13; 
     background-color: #333333;
@@ -27,19 +27,17 @@ header{
     background-color: #4c9963;
     grid-column-start: 1;
     grid-column-end: 3;
-}
+} */
 
-nav{
+/* nav{
     grid-column-start: 1;
     grid-column-end: 13;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     border:solid black 1px;
-}
+} */
 
 body{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
     background-color: #010101;
 }
-
+    

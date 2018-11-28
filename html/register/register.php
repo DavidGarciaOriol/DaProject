@@ -1,6 +1,6 @@
 <?php
-    require_once './dbconnection/connectionSetup.php';
-    require_once './dbconnection/connection.php';
+    require_once '../setup.php';
+    require_once '../dbconnection/connection.php';
 
     if ( !empty($_SESSION) ){
         header("Location: ".BASE_URL);
@@ -76,4 +76,4 @@
         }
     }
 
-    require 'register.view.html';
+    require 'register.view.php';

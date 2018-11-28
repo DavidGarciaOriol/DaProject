@@ -1,7 +1,7 @@
 <?php
-    require_once '../connectionSetup.php';
-    require_once '../database/connection.php';
-    require_once '../database/helpers.php';
+    require_once '../setup.php';
+    require_once '../dbconnection/connection.php';
+    require_once '../dbconnection/helpers.php';
 
     if ( !empty($_SESSION) ){
         header("Location: ".BASE_URL);
@@ -61,4 +61,4 @@
         }
     }
 
-    require_once 'C:/xampp/htdocs/Project/DaProject/html/login.view.php';
+    require_once 'login.view.php';
