@@ -13,7 +13,9 @@
     border: solid white 1px;
     width: 12rem;
 } */
+
 /* ============================================= */
+
 /* header{
     grid-column-start: 1;
     grid-column-end: 13; 
@@ -26,6 +28,7 @@
     grid-column-start: 1;
     grid-column-end: 3;
 } */
+
 /* nav{
     grid-column-start: 1;
     grid-column-end: 13;
@@ -33,7 +36,8 @@
     grid-template-columns: repeat(12, 1fr);
     border:solid black 1px;
 } */
-body {
-  background-color: #010101; }
 
-/*# sourceMappingURL=main.css.map */
+body{
+    background-color: #010101;
+}
+    
