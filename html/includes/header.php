@@ -31,7 +31,7 @@
                         <a class="nav-link" href="<?=BASE_URL?>/login/login.php">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-important" href="http://localhost:80/Project/DaProject/html/register/register.php">Registrar</a>
+                        <a class="nav-link link-important" href="<?=BASE_URL?>/register/register.php">Registrar</a>
                     </li>
                 <?php else: ?>
                     <li class="nav-item dropdown">
@@ -39,14 +39,14 @@
                         Listas
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="<?=BASE_URL?>create_list">Crear Sala</a>
+                            <a class="dropdown-item" href="<?=BASE_URL?>create_room">Crear Sala</a>
                         </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?=BASE_URL?>profile"><?=$_SESSION['usuario']['username']?></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link link-important" href="http://localhost:8080/superlists/logout">Logout</a>
+                        <a class="nav-link link-important" href="<?BASE_URL?>/logout">Logout</a>
                     </li>
                 <?php endif; ?>
                 </ul>

@@ -40,4 +40,25 @@
 body{
     background-color: #010101;
 }
+
+.maingrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+$color: rgb(141, 233, 213);
+$bordercolor: rgba(14, 2, 36, 0.733);
+
+.maingridelement{
+
+    margin: 15px;
+    width: 80%;
+    height: 80%;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    border: 3px solid $bordercolor;
+    background-color: $color;
+    box-shadow: 5px 5px 5px gray;
+}
     

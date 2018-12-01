@@ -36,4 +36,19 @@
 body {
   background-color: #010101; }
 
+.maingrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr; }
+
+.maingridelement {
+  margin: 15px;
+  width: 80%;
+  height: 80%;
+  grid-column-start: auto;
+  grid-column-end: auto;
+  border: 3px solid rgba(14, 2, 36, 0.733);
+  background-color: #8de9d5;
+  box-shadow: 5px 5px 5px gray; }
+
 /*# sourceMappingURL=main.css.map */
