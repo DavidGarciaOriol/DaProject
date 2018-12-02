@@ -7,10 +7,10 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="<?=BASE_URL?>/css/reset.css">
-    <link rel="stylesheet" href="<?=BASE_URL?>/css/main.css">
-    <link rel="stylesheet" href="<?=BASE_URL?>/css/logForm.css">
-    <link rel="stylesheet" href="<?=BASE_URL?>/css/regForm.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/main.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/logForm.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/regForm.css">
     <title>PDJ-CP</title>
   </head>
   <body>

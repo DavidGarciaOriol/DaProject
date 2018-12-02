@@ -38,27 +38,42 @@
 } */
 
 body{
-    background-color: #010101;
+    background-color: #dadada;
 }
 
-.maingrid{
+.indexgrid{
+    padding-top: 100px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 20px;
 }
 
-$color: rgb(141, 233, 213);
-$bordercolor: rgba(14, 2, 36, 0.733);
+.indexgriditem{
+    margin:15%;
 
-.maingridelement{
-
-    margin: 15px;
-    width: 266px;
-    height: 266px;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    border: 3px solid $bordercolor;
-    background-color: $color;
+    width: 144px;
+    height: 114px;
+    grid-column-start: auto;
+    grid-column-end: auto;
+    border: 3px solid rgb(141, 233, 213);
+    background-color: rgba(103, 62, 179, 0.733);
     box-shadow: 5px 5px 5px gray;
 }
+
+.indexgriditem h2{
+    font-family: cursive;
+    font-size: 1rem;
+    text-align: center; 
+}
+
+.mainBanner{
+    margin-left: 10%;
+    margin-top: 1%;
+    width: 80%;
+    height: 100px;
+    font-size: 6rem;
+    text-align: center;   
+}
+
     
