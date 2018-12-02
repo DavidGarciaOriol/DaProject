@@ -1,0 +1,40 @@
+<link href="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.css" rel="stylesheet" />
+<script src="https://cdn.rawgit.com/jquery/jquery/2.1.4/dist/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/Automattic/expect.js/0.3.1/index.js"></script>
+<script src="https://cdn.rawgit.com/mochajs/mocha/2.2.5/mocha.js"></script>
+
+<script>mocha.setup('bdd')</script>
+
+<script src="../src/prueba.js"></script> <!-- Aquí cargaremos el script que tiene las funciones que vamos a probar -->
+<script src="../test/test.js"></script> <!-- Aquí cargaremos las pruebas que se van a realizar. -->
+
+<script>
+mocha.checkLeaks();
+mocha.globals(['jQuery']);
+mocha.run();
+</script>
+
+<!--
+    Si tenemos la siguiente función:
+
+    function suma(x,y){
+        return x+ y;
+    }
+     Podemos implementar la siguiente prueba:
+    describe('#suma', function() { // Nombre de la prueba.
+
+        it('debe devolver la suma de los dos valores introducidos', function() {
+
+        //con it, describimos lo que hace la prueba.
+
+            expect(suma(1,1)).to.equal(2);
+
+            //expect no servirá para indicar el caso de prueba, incluimos por parámetro, el resultado a la función,
+            // y debemos indicar a que sería igual su valor. En este caso, comprobamos que sumar 1 y 1
+            // el resultado debería ser igual a 2.
+
+        });
+    });
+-->
+
+<a href="http://www.chaijs.com/api/bdd/"> \/ <!--Distintas Pruebas--> \/</a>
