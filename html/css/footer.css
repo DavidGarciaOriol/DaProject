@@ -1,0 +1,31 @@
+.footergrid {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr;
+  justify-items: center;
+  background-color: #343A40; }
+
+.footerlinks {
+  margin: 10px;
+  width: 1fr; }
+
+.footerCPContent {
+  background-color: #343A40;
+  width: 100%;
+  box-sizing: content-box; }
+
+.footerlist li {
+  margin: 8px; }
+
+.footerCPContent {
+  box-sizing: border-box; }
+
+.footerCopyright {
+  text-align: center;
+  padding-bottom: 10px; }
+
+.verticalRule {
+  border-left: 2px solid rgba(46, 46, 46, 0.658);
+  margin-top: 20px;
+  height: 80%; }
+
+/*# sourceMappingURL=footer.css.map */

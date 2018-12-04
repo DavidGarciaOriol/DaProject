@@ -1,13 +1,91 @@
 
-    <footer id="footer" class="pb-4 pt-4">
-        <div class="container">
-            <div class="row text-center">
-                <div class="col-12 col-lg">
-                    David García Oriol &copy; 2018
-                </div>
-            </div>
-        </div>
-    </footer>
+<!-- Footer -->
+<footer>
+
+<!-- Footer Links -->
+<div class="footergrid">
+
+    <div class="footerlinks" id="lFoot">
+
+      <!-- Links -->
+      <h5>Información & Legal</h5>
+
+      <ul class="footerlist">
+        <li>
+          <a href="#!">Legal</a>
+        </li>
+        <li>
+          <a href="#!">¿Quién Soy?</a>
+        </li>
+        <li>
+          <a href="#!">Info</a>
+        </li>
+        
+      </ul>
+
+    </div>
+
+    <div class="verticalRule">   </div>
+
+    <div class="footerlinks" id="cFoot">
+
+      <!-- Links -->
+      <h5>Links</h5>
+
+      <ul class="footerlist">
+        <li>
+          <a href="#!">Link 1</a>
+        </li>
+        <li>
+          <a href="#!">Link 2</a>
+        </li>
+        <li>
+          <a href="#!">Link 3</a>
+        </li>
+        <li>
+          <a href="#!">Link 4</a>
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="verticalRule">   </div>
+  
+    <div class="footerlinks" id="rFoot">
+
+      <!-- Links -->
+      <h5>Contacto</h5>
+
+      <ul class="footerlist">
+        <li>
+          <a href="#!">Twitter</a>
+        </li>
+        <li>
+          <a href="#!">Facebook</a>
+        </li>
+        <li>
+          <a href="#!">Discord</a>
+        </li>
+        <li>
+          <h4> DavidGarciaOriol@gmail.com <h4>
+        </li>
+      </ul>
+
+    </div>
+
+</div>
+
+<!-- Copyright -->
+<div class="footerCPContent">
+
+    <div class="footerCopyright"> 
+        <h2>David García Oriol &copy; 2018</h2>
+    </div>
+    
+</div>
+<!-- Copyright -->
+
+</footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/logForm.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/regForm.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/footer.css">
     <title>PDJ-CP</title>
   </head>
   <body>

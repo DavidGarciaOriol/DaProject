@@ -34,7 +34,7 @@
     border:solid black 1px;
 } */
 body {
-  background-color: #dadada; }
+  background-color: #c2c1c1; }
 
 .indexgrid {
   padding-top: 60px;
@@ -76,14 +76,14 @@ body {
   width: 95%;
   height: 95%; }
 
+.itemcard {
+  margin-top: 50px; }
+
 .mainBanner {
   width: 100%;
   height: 150px;
   font-size: 4rem;
-  text-align: center; }
-
-.mainBanner h1 img {
-  width: 100%;
-  height: 150px; }
+  text-align: center;
+  background-color: #474C9D; }
 
 /*# sourceMappingURL=main.css.map */
