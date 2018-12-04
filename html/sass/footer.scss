@@ -11,8 +11,13 @@ background-color: #343A40;
 }
 
 .footerlinks{
-    margin: 10px;
-width: 1fr;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 1fr;
+}
+
+.footerlinks h5{
+    color: white;
 }
 
 .footerCPContent{
@@ -23,7 +28,19 @@ box-sizing: content-box;
 }
 
 .footerlist li{
-    margin: 8px;    
+    margin: 8px;
+}
+
+.footerlist li a{
+    color: rgb(172, 172, 172); 
+}
+
+.footerlist li h4{
+    color: rgb(129, 129, 129); 
+}
+
+.footerlist li a:hover{
+    color: rgb(216, 217, 218);
 }
 
 .footerCPContent{
@@ -32,11 +49,12 @@ box-sizing: border-box;
 
 .footerCopyright{
 text-align: center;
-padding-bottom: 10px;
+padding-bottom: 10px;   
+color: rgba(128, 128, 128, 0.801)
 }
 
 .verticalRule{
-    border-left:2px solid rgba(46, 46, 46, 0.658);
+    border-left:1.5px solid rgb(71, 71, 71);
     margin-top: 20px;
     height:80%;
 }
