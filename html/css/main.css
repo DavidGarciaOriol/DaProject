@@ -37,32 +37,53 @@ body {
   background-color: #dadada; }
 
 .indexgrid {
-  padding-top: 100px;
+  padding-top: 60px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 100px;
-  grid-gap: 10px; }
+  grid-auto-rows: 160px;
+  grid-gap: 4px;
+  justify-items: center; }
+  @media (max-width: 720px) {
+    .indexgrid {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 360px) {
+    .indexgrid {
+      grid-template-columns: repeat(1, 1fr); } }
 
 .indexgriditem {
   box-sizing: border-box;
   border-radius: 10px;
-  width: 80%;
-  height: 60%;
+  width: 130px;
+  height: 130px;
   grid-column-start: auto;
   grid-column-end: auto;
-  border: 3px solid black;
-  background-color: rgba(126, 126, 126, 0.733);
-  box-shadow: 5px 5px 5px gray; }
+  border: 2px solid rgba(37, 37, 37, 0.699);
+  box-shadow: 1px 2px 3px 1px #7d7d7d;
+  transition-duration: 0.1s;
+  background-color: #858383;
+  resize: none; }
 
-.indexgriditem h2 {
-  font-family: cursive;
-  font-size: 80%;
-  text-align: center; }
+.indexgriditem:hover {
+  box-shadow: 1px 2px 3px 1px #7d7d7d, 2px 4px 6px 1px rgba(39, 2, 66, 0.808);
+  background-color: #679797;
+  margin-right: 1px;
+  margin-top: -1px;
+  border-color: #640454; }
+
+.indexgriditem h4 {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  width: 95%;
+  height: 95%; }
 
 .mainBanner {
   width: 100%;
-  height: 100px;
-  font-size: 6rem;
+  height: 150px;
+  font-size: 4rem;
   text-align: center; }
+
+.mainBanner h1 img {
+  width: 100%;
+  height: 150px; }
 
 /*# sourceMappingURL=main.css.map */
