@@ -1,8 +1,12 @@
-.footergrid {
-  display: grid;
-  grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr;
-  justify-items: center;
+footer {
   background-color: #343A40; }
+
+.footergrid {
+  width: 50%;
+  margin-left: 25%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center; }
 
 .footerlinks {
   margin-top: 10px;
@@ -23,9 +27,6 @@
 .footerlist li a {
   color: #acacac; }
 
-.footerlist li h4 {
-  color: #818181; }
-
 .footerlist li a:hover {
   color: #d8d9da; }
 
@@ -33,6 +34,8 @@
   box-sizing: border-box; }
 
 .footerCopyright {
+  width: 50%;
+  margin-left: 25%;
   text-align: center;
   padding-bottom: 10px;
   color: rgba(128, 128, 128, 0.801); }

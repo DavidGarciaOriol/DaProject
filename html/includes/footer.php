@@ -12,13 +12,13 @@
 
       <ul class="footerlist">
         <li>
-          <a href="#!">Legal</a>
+          <a href="#!">Términos Legales</a>
         </li>
         <li>
           <a href="#!">¿Quién Soy?</a>
         </li>
         <li>
-          <a href="#!">Info</a>
+          <a href="#!">Información</a>
         </li>
         
       </ul>
@@ -27,30 +27,6 @@
 
     <div class="verticalRule">   </div>
 
-    <div class="footerlinks" id="cFoot">
-
-      <!-- Links -->
-      <h5>Links</h5>
-
-      <ul class="footerlist">
-        <li>
-          <a href="#!">Link 1</a>
-        </li>
-        <li>
-          <a href="#!">Link 2</a>
-        </li>
-        <li>
-          <a href="#!">Link 3</a>
-        </li>
-        <li>
-          <a href="#!">Link 4</a>
-        </li>
-      </ul>
-
-    </div>
-
-    <div class="verticalRule">   </div>
-  
     <div class="footerlinks" id="rFoot">
 
       <!-- Links -->
@@ -65,9 +41,6 @@
         </li>
         <li>
           <a href="#!">Discord</a>
-        </li>
-        <li>
-          <h4> DavidGarciaOriol@gmail.com <h4>
         </li>
       </ul>
 
