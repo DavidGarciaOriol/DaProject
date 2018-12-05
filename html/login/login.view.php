@@ -1,5 +1,7 @@
 <?php require_once '../includes/header.php'; ?>
 
+<main>
+
     <form action="/DaProject/html/index.html" method="post">
 
         <div class="content">
@@ -24,5 +26,7 @@
         </div> 
 
     </form>
+
+    </main>
 
     <?php require_once '../includes/footer.php'; ?>

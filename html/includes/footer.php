@@ -34,10 +34,10 @@
 
       <ul class="footerlist">
         <li>
-          <a href="#!">Twitter</a>
+          <a href="https://twitter.com/Nana__David" target="_blank">Twitter</a>
         </li>
         <li>
-          <a href="#!">Facebook</a>
+          <a href="https://www.facebook.com/NNxDavid" target="_blank">Facebook</a>
         </li>
         <li>
           <a href="#!">Discord</a>

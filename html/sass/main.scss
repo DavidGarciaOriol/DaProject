@@ -1,64 +1,9 @@
-/* .navigate{
-    background-color: #333333;
-    align-content: center;
-    width: 1fr;
-    grid-column-start: 3;
-    grid-column-end: 13;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
+body{
+    background-color:rgb(42, 45, 48);   
 }
-
-.navitem{
-    border: solid white 1px;
-    width: 12rem;
-} */
-
-/* ============================================= */
-
-/* header{
-    grid-column-start: 1;
-    grid-column-end: 13; 
-    background-color: #333333;
-    
-}
-
-.logo{
-    background-color: #4c9963;
-    grid-column-start: 1;
-    grid-column-end: 3;
-} */
-
-/* nav{
-    grid-column-start: 1;
-    grid-column-end: 13;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    border:solid black 1px;
-} */
 
 main{
     min-height: 100vh;
-}
-
-#header{
-    background-color: #000000;
-}
-
-.login-item{
-    color:  rgb(197, 197, 197); 
-    padding: .5rem 1rem;
-    
-}
-
-.login-item:hover{
-text-decoration: none;
-color: rgb(240, 240, 240);
-}
-
-
-body{
-    background-color:rgb(42, 45, 48);   
 }
 
 .indexgrid{

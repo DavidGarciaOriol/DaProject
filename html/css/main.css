@@ -1,54 +1,8 @@
-/* .navigate{
-    background-color: #333333;
-    align-content: center;
-    width: 1fr;
-    grid-column-start: 3;
-    grid-column-end: 13;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
-
-.navitem{
-    border: solid white 1px;
-    width: 12rem;
-} */
-/* ============================================= */
-/* header{
-    grid-column-start: 1;
-    grid-column-end: 13; 
-    background-color: #333333;
-    
-}
-
-.logo{
-    background-color: #4c9963;
-    grid-column-start: 1;
-    grid-column-end: 3;
-} */
-/* nav{
-    grid-column-start: 1;
-    grid-column-end: 13;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    border:solid black 1px;
-} */
-main {
-  min-height: 100vh; }
-
-#header {
-  background-color: #000000; }
-
-.login-item {
-  color: #c5c5c5;
-  padding: .5rem 1rem; }
-
-.login-item:hover {
-  text-decoration: none;
-  color: #f0f0f0; }
-
 body {
   background-color: #2a2d30; }
+
+main {
+  min-height: 100vh; }
 
 .indexgrid {
   padding-top: 60px;

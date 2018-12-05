@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Bootstrap CSS --><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/section.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/logForm.css">
@@ -16,6 +16,8 @@
     <title>PDJ-CP</title>
   </head>
   <body>
+
+  <header>
     <!-- Header -->
     <nav id="header" class="navbar navbar-expand-lg navbar-dark">
         <div class="container">
@@ -55,4 +57,5 @@
             </div>
         </div>
     </nav>
+</header>
     <!-- End Header -->
