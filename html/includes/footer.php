@@ -12,13 +12,13 @@
 
       <ul class="footerlist">
         <li>
-          <a href="#!">Términos Legales</a>
+          <a href="<?=BASE_URL?>../legal.php">Términos Legales</a>
         </li>
         <li>
-          <a href="#!">¿Quién Soy?</a>
+          <a href="<?=BASE_URL?>../whoami.php">¿Quién Soy?</a>
         </li>
         <li>
-          <a href="#!">Información</a>
+          <a href="<?=BASE_URL?>../info.php">Información</a>
         </li>
         
       </ul>
