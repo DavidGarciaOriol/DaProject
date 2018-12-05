@@ -1,3 +1,4 @@
+<main>
 <div class="mainBanner">
 
 <h1>

@@ -1,6 +1,6 @@
 
 footer{
-background-color: #343A40;
+background-color: rgb(0, 0, 0);
 
 }
 
@@ -24,7 +24,7 @@ background-color: #343A40;
 }
 
 .footerCPContent{
-    background-color: #343A40;
+    background-color: #000000   ;
     width: 100%;
     box-sizing: content-box;
 
@@ -40,6 +40,7 @@ background-color: #343A40;
 
 .footerlist li a:hover{
     color: rgb(216, 217, 218);
+    text-decoration: none;
 }
 
 .footerCPContent{

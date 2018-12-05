@@ -5,6 +5,9 @@
 ?>
 
 <?php require_once './includes/mainbannerpage.php';?>
+
+<?php require_once './includes/section.php';?>
+
 <?php require_once './includes/maingridpage.php';?>
 
-<?php require_once './includes/footer.php'; ?>
+<?php require_once './includes/footer.php';?>

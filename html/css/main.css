@@ -33,8 +33,22 @@
     grid-template-columns: repeat(12, 1fr);
     border:solid black 1px;
 } */
+main {
+  min-height: 100vh; }
+
+#header {
+  background-color: #000000; }
+
+.login-item {
+  color: #c5c5c5;
+  padding: .5rem 1rem; }
+
+.login-item:hover {
+  text-decoration: none;
+  color: #f0f0f0; }
+
 body {
-  background-color: #d4d3d3; }
+  background-color: #2a2d30; }
 
 .indexgrid {
   padding-top: 60px;
@@ -52,19 +66,19 @@ body {
 
 .indexgriditem {
   box-sizing: border-box;
-  border-radius: 5px;
+  border-radius: 4px;
   width: 130px;
   height: 130px;
   grid-column-start: auto;
   grid-column-end: auto;
   box-shadow: 1px 2px 3px 1px #7d7d7d;
   transition-duration: 0.1s;
-  background-color: white;
+  background-color: #cebada;
   resize: none; }
 
 .indexgriditem:hover {
   box-shadow: 1px 2px 3px 1px #7d7d7d, 2px 4px 6px 1px rgba(39, 2, 66, 0.808);
-  background-color: #d6eeee;
+  background-color: #55b6ee;
   margin-right: 1px;
   margin-top: -1px; }
 
