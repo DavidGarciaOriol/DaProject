@@ -34,7 +34,7 @@
     border:solid black 1px;
 } */
 body {
-  background-color: #c2c1c1; }
+  background-color: #d4d3d3; }
 
 .indexgrid {
   padding-top: 60px;
@@ -52,23 +52,23 @@ body {
 
 .indexgriditem {
   box-sizing: border-box;
-  border-radius: 10px;
+  border-radius: 5px;
   width: 130px;
   height: 130px;
   grid-column-start: auto;
   grid-column-end: auto;
-  border: 2px solid rgba(37, 37, 37, 0.699);
+  border: 2px solid rgba(255, 255, 255, 0.699);
   box-shadow: 1px 2px 3px 1px #7d7d7d;
   transition-duration: 0.1s;
-  background-color: #858383;
+  background-color: white;
   resize: none; }
 
 .indexgriditem:hover {
   box-shadow: 1px 2px 3px 1px #7d7d7d, 2px 4px 6px 1px rgba(39, 2, 66, 0.808);
-  background-color: #679797;
+  background-color: #d6eeee;
   margin-right: 1px;
   margin-top: -1px;
-  border-color: #640454; }
+  border-color: #c7b9c5; }
 
 .indexgriditem h4 {
   text-align: center;
