@@ -3,85 +3,85 @@
 
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> POP </h4>
+            <h4><b> POP </b></h4>
         </div>
     </div>
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> ROCK </h4>
+            <h4><b> ROCK </b></h4>
         </div>
     </div>
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> METAL </h4>
+            <h4><b> METAL </b></h4>
         </div>
     </div>
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> AMBIENT </h4>
-        </div>
-    </div>
-
-    <div class="indexgriditem">
-        <div class="itemcard">
-            <h4> ELECTRONIC </h4>
-        </div>
-    </div>
-    <div class="indexgriditem">
-        <div class="itemcard">
-            <h4> COUNTRY </h4>
-        </div>
-    </div>
-    <div class="indexgriditem">
-        <div class="itemcard">
-            <h4> TRANCE </h4>
-        </div>
-    </div>
-    <div class="indexgriditem">
-        <div class="itemcard">
-            <h4> FUNK </h4>
+            <h4><b> AMBIENT</b> </h4>
         </div>
     </div>
 
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> TECHNO </h4>
+            <h4><b> ELECTRONIC</b> </h4>
         </div>
     </div>
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> INDIE </h4>
+            <h4><b> COUNTRY </b></h4>
         </div>
     </div>
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> CLASSICAL </h4>
+            <h4><b> TRANCE </b></h4>
         </div>
     </div>
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> BLUES & JAZZ </h4>
+            <h4><b> FUNK </b></h4>
         </div>
     </div>
 
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> FOLK </h4>
+            <h4><b> TECHNO </b></h4>
         </div>
     </div>
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> HOUSE </h4>
+            <h4><b> INDIE </b></h4>
         </div>
     </div>
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> TRAP </h4>
+            <h4><b> CLASSICAL </b></h4>
         </div>
     </div>
     <div class="indexgriditem">
         <div class="itemcard">
-            <h4> DUBSTEP </h4>
+            <h4><b> BLUES & JAZZ </b></h4>
+        </div>
+    </div>
+
+    <div class="indexgriditem">
+        <div class="itemcard">
+            <h4><b> FOLK </b></h4>
+        </div>
+    </div>
+    <div class="indexgriditem">
+        <div class="itemcard">
+            <h4><b> HOUSE </b></h4>
+        </div>
+    </div>
+    <div class="indexgriditem">
+        <div class="itemcard">
+            <h4><b> TRAP </b></h4>
+        </div>
+    </div>
+    <div class="indexgriditem">
+        <div class="itemcard">
+            <h4><b> DUBSTEP </b></h4>
         </div>
     </div>
 

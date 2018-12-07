@@ -24,8 +24,8 @@
 
             <div class="reg-labels2 reg-item2">
 
-                <button id="subutton" class="reg-labeledButton" type="submit" value="Log-in">
-                <button id="subutton2" class="reg-labeledButton" type="button" value="Contraseña Olvidada"></button>
+                <button id="subutton" class="reg-labeledButton" type="submit" value="Log-in"> Confirmar </button>
+                <button id="subutton2" class="reg-labeledButton" type="button" value="Contraseña Olvidada"> ¿Ya tienes una cuenta? </button>
 
             </div>
 

@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(42, 45, 48);   
+    background-color:rgb(31, 34, 36);   
 }
 
 main{
@@ -8,6 +8,9 @@ main{
 
 .indexgrid{
     padding-top: 60px;
+    margin-left: 15%;
+
+    width: 70%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-auto-rows: 160px;
@@ -31,15 +34,15 @@ main{
     grid-column-start: auto;
     grid-column-end: auto;
  
-    box-shadow: 1px 2px 3px 1px rgb(125, 125, 125);
+    box-shadow: 1px 2px 3px 1px rgb(14, 12, 12);
     transition-duration: 0.1s;
-    background-color: #cebada;
+    background-color: #ffffff;
     resize: none;
 
 }
 
 .indexgriditem:hover{    
-    box-shadow: 1px 2px 3px 1px rgb(125, 125, 125), 2px 4px 6px 1px rgba(39, 2, 66, 0.808);
+    box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.89), 2px 4px 6px 1px rgba(160, 23, 130, 0.603);
     background-color: rgb(85, 182, 238);
     margin-right: 1px;
     margin-top: -1px;
@@ -50,6 +53,8 @@ main{
 .indexgriditem h4{
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 1.11rem;
+    margin-left: 2px;
     width: 95%;
     height: 95%;
 }
@@ -64,7 +69,7 @@ main{
     height: 150px;
     font-size: 4rem;
     text-align: center;   
-    background-color: #474C9D;
+    background-color: rgb(239, 240, 248);
 }
 
 

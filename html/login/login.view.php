@@ -8,10 +8,10 @@
 
             <div class="labels item">
 
-                <label  for="username">Usuario</label>
+                <label  for="username">Usuario.</label>
                 <input class="labeled" type="text" id="username" name="username">
                         
-                <label for="password">Contraseña</label>
+                <label for="password">Contraseña.</label>
                 <input class="labeled" type="password" id="password" name="password">
             
             </div>

@@ -9,7 +9,7 @@
 
     width: 100%;
 
-    background-color: #0B1D2B;
+    background-color: rgb(0, 0, 0);
 
     margin: 1px;
 }
@@ -34,6 +34,18 @@
     grid-row-end: 3;
 }
 
+.reg-content .reg-item input, label{
+
+    align-self: center;
+
+}
+
+.reg-content .reg-item label{
+
+    margin-left: -2px;
+
+}
+
 .reg-labels{
     display: flex;
     flex-direction: column;
@@ -51,6 +63,7 @@
 .reg-labeled{
     border-radius: 3px;
     border: solid black 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     margin: 10px;
     width: 10rem;
     align-content: center;
@@ -59,7 +72,8 @@
 .reg-labeledButton{
     border-radius: 3px;
     border: solid black 2px;
-    background-color: #00E9DE;
+    background-color: #55B6E2;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     margin: 10px;
     width: 10rem;
 }
