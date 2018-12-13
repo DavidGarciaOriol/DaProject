@@ -52,7 +52,7 @@
 <div class="footerCPContent">
 
     <div class="footerCopyright"> 
-        <h2>David García Oriol &copy; 2018</h2>
+        <h2> <span>David García Oriol &copy; 2018</span></h2>
     </div>
     
 </div>

@@ -61,7 +61,6 @@
 
             $password_segura = password_hash($password, PASSWORD_BCRYPT);
 
-            // Insertar usuario en la base de datos
             $sql = "INSERT INTO users VALUES(NULL, '$username', '$email', '$password_segura', NOW(), NOW())";
 
             $guardar = mysqli_query($db, $sql);

@@ -2,6 +2,38 @@ body{
     background-color:rgb(31, 34, 36);   
 }
 
+.infomsg{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 2.5rem;  
+    margin: 10%;
+    
+}
+
+.indexlabel{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    font-size: 1.5rem;
+    color: whitesmoke;
+}
+
+.infoindex{
+    border: 2px outset rgb(179, 179, 179);
+    margin: 10%;
+    width: 160px;
+    height: 200px;
+}
+
+.infoindex ul{
+    list-style-type: decimal;
+    margin: 20%;
+
+}
+.infoindex ul li{
+    color: white;
+    margin: 10px;
+}
+
+
 main{
     min-height: 100vh;
 }
