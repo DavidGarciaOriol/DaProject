@@ -84,6 +84,14 @@ class Room{
         this.Genre = Genre;
 
     }
+    
+    get numUsers(){
+        return this._numUsers;
+    }
+
+    set numUsers(numUsers){
+        this._numUsers = numUsers;
+    }
 
     isFull(maxUsers, numUsers){
         return (numUsers === maxUsers);
@@ -94,24 +102,20 @@ class Room{
     }
 }
 
-/*class roomManager{
 
-    constructor(room){
-        this.room = room;
-    }
+class Community{
 
-    roomClosed(){
+    constructor(name, description, creatorUser, numMembers){
 
-    }
-
-    checkTimeOut(room){
+        this.name = name;
+        this.description = description;
+        this.creatorUser = creatorUser;
+        this.numMembers = numMembers;
 
     }
 
-    closeRoom(room){
-        if (room.isFull()){
-            this.roomClosed();
-        }
+    get name(){
+        return this._name;
     }
 
-}*/
+}

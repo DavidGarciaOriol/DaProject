@@ -6,10 +6,11 @@ function createGenres(){
     var electronic = new Genre("Electronic");
     var metal = new Genre("Metal");
     var drumBass = new Genre("Drum & Bass");
+    var classic = new Genre("Classic");
 
 }
 
-function createStandardRoom(Genre){
+function createRoom(Genre){
 
     createGenres();
 
