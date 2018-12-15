@@ -40,7 +40,7 @@
           <a href="https://www.facebook.com/NNxDavid" target="_blank">Facebook</a>
         </li>
         <li>
-          <a href="#!">Discord</a>
+          <a href="https://discord.gg/Mzj74x">Discord</a>
         </li>
       </ul>
 

@@ -1,4 +1,26 @@
-body {
-  background-color: #1f2224; }
+.mainRoom {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-template-rows: 1fr 5fr; }
+
+.mainRoom .video {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+  background-color: #397a65; }
+
+.mainRoom .chat {
+  grid-column-start: 2;
+  grid-row-start: 1;
+  grid-column-end: 3;
+  grid-row-end: 3;
+  background-color: #a7770f; }
+
+.mainRoom .infoRoom {
+  background-color: #4a1555; }
+
+video {
+  size: 640px 480px; }
 
 /*# sourceMappingURL=room.css.map */

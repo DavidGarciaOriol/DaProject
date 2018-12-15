@@ -10,7 +10,7 @@ function createGenres(){
 
 }
 
-function createRoom(Genre){
+function createRoom(){
 
     createGenres();
 

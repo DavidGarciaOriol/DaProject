@@ -93,6 +93,22 @@ class Room{
         this._numUsers = numUsers;
     }
 
+    get maxUsers(){
+        return this._maxUsers;
+    }
+
+    set maxUsers(maxUsers){
+        this._maxUsers = maxUsers;
+    }
+
+    get genre(){
+        return this._Genre;
+    }
+
+    set genre(Genre){
+        this._Genre = Genre;
+    }
+
     isFull(maxUsers, numUsers){
         return (numUsers === maxUsers);
     }
@@ -116,6 +132,34 @@ class Community{
 
     get name(){
         return this._name;
+    }
+
+    get description(){
+        return this._description;
+    }
+
+    get creatorUser(){
+        return this._creatorUser;
+    }
+
+    get numMembers(){
+        return this._numMembers;
+    }
+
+    set name(name){
+        this._name = name
+    }
+
+    set description(description){
+        this._description = description;
+    }
+
+    set creatorUser(creatorUser){
+        this._creatorUser = creatorUser;
+    }
+
+    set numMembers(numMembers){
+        this._numMembers = numMembers;
     }
 
 }

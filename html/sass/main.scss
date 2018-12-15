@@ -10,6 +10,24 @@ body{
     
 }
 
+.infomsg h2{
+    color: rgb(85, 182, 238);
+}
+
+.infomsg h3{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    color: rgb(219, 219, 219)
+}
+
+.infomsg p{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    color: rgb(200,200,200)
+}
+
 .indexlabel{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
     font-size: 1.5rem;
@@ -25,12 +43,21 @@ body{
 
 .infoindex ul{
     list-style-type: decimal;
-    margin: 20%;
+    margin: 10%;
 
 }
 .infoindex ul li{
     color: white;
     margin: 10px;
+}
+
+.infoindex ul li a{
+    color: #acacac; 
+}
+
+.infoindex ul li a:hover{
+    text-decoration: none;
+    color: rgb(216, 217, 218);
 }
 
 

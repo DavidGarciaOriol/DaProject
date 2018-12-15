@@ -10,9 +10,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/section.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/room.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/logForm.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/regForm.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/footer.css">
+    
     <title>PDJ-CP</title>
   </head>
   <body>
@@ -32,6 +34,9 @@
                 <ul class="navbar-nav ml-auto">
                 <?php if( !isset($_SESSION['usuario']) ): ?>
                     <li class="nav-item">
+                        <a class="login-item" href="<?=BASE_URL?>/room.php">RoomTest</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="login-item" href="<?=BASE_URL?>/login/login.php">Login</a>
                     </li>
                     <li class="nav-item">
@@ -40,7 +45,7 @@
                 <?php else: ?>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
-                        Listas
+                        Comunidades
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="<?=BASE_URL?>create_room">Usuario</a>

@@ -1,10 +1,11 @@
 
 <div class="infoindex">
     <ul>
-        <li>General</li>
-        <li>Info</li>
-        <li>Lorem</li>
-        <li>Ipsum</li>  
+        <li> <a href="#funcionamiento"> Funcionamiento </a> </li>
+        <li> <a href="#funcionamiento2"> Info </a> </li>
+        <li> <a href="other"> Lorem </a> </li>
+        <li> <a href="other2"> Ipsum </a> </li>
+        
     </ul>
 </div>  
 
@@ -12,15 +13,16 @@
 <div class="infomsg">
     
 <h2>
-    INFORMACIÓN IMPORTANTE
+    <strong> INFORMACIÓN IMPORTANTE </strong>
 </h2>
 
 <p>
-    Esta aplicación pretende crear un entorno en el cual puedas escuchar la música que te apetezca con quien te apetezca. Sin ánimo de lucro. <br> <br>
+    Esta aplicación pretende crear un entorno en el cual puedas escuchar la música que te apetezca con quien te apetezca. <br>
+    Sin líos ni movidas de por medio. Un click es lo máximo que necesitas. <br> <br>
     
 </p>
 
-<h2>
+<h2 id="funcionamiento">
     FUNCIONAMIENTO
 </h2>
 
