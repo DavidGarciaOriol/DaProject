@@ -3,18 +3,20 @@ body {
 
 .infomsg {
   color: white;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
+  font-size: 1.4rem;
+  line-height: 2rem;
   margin: 10%; }
 
 .infomsg h2 {
-  color: #55b6ee; }
+  color: #55b6ee;
+  font-size: 1.8rem; }
 
 .infomsg h3 {
   margin-top: 25px;
   margin-bottom: 20px;
   margin-left: 2%;
-  color: #dbdbdb; }
+  color: #dbdbdb;
+  font-size: 1.6rem; }
 
 .infomsg p {
   margin-top: 25px;
@@ -31,7 +33,24 @@ body {
   border: 2px outset #b3b3b3;
   margin: 10%;
   width: 160px;
-  height: 200px; }
+  height: 100px; }
+
+.upButtom {
+  display: flex;
+  position: sticky;
+  top: 50%;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #55b6ee;
+  border-radius: 180px;
+  margin: 5%; }
+
+.upButtom .upper {
+  position: inherit;
+  text-decoration: none;
+  color: #d8d9da; }
 
 .infoindex ul {
   list-style-type: decimal;
