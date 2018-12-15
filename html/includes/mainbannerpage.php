@@ -2,7 +2,7 @@
 <div class="mainBanner">
 
 <h1>
-    BANNER SPACE
+    TOGE/DJ/ER <br> BANNER
 </h1>
 
 </div>

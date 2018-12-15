@@ -14,6 +14,18 @@ function createRoom(){
 
     createGenres();
 
-    new Room(20, 1, jazz);
+    function generateRoom(Genre){
 
+        let maindiv = document.getElementById('roombody');
+            
+        for(let i = 1; 1>=15; i++){
+            if (i === 8){
+                let titlediv = $(`<div> <h2> SALA DE ${Genre.name()}  </h2></div>`)
+
+            } else{
+                let voiddiv = $('<div> </div>');
+                $(maindiv).append(voiddiv);
+            }
+        }
+    }
 }

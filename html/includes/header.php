@@ -14,8 +14,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/logForm.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/regForm.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
     
-    <title>PDJ-CP</title>
+    <title>TogeDJer</title>
   </head>
   <body>
 

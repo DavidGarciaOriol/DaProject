@@ -15,7 +15,7 @@
     <h2> CHAT ROOM </h2>
   </div>
 
-  <div class="infoRoom">
+  <div class="infoRoom" id="roombody">
 
     <div>
 
