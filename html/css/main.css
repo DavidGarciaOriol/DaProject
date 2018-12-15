@@ -24,6 +24,17 @@ body {
   margin-left: 2%;
   color: #c8c8c8; }
 
+.infomsg ul li a {
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-left: 2%;
+  color: #c8c8c8;
+  text-decoration: none; }
+
+.infomsg ul li a:hover {
+  color: #55b6ee;
+  text-decoration: none; }
+
 .indexlabel {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.5rem;
@@ -65,7 +76,7 @@ body {
 
 .infoindex ul li a:hover {
   text-decoration: none;
-  color: #d8d9da; }
+  color: #55b6ee; }
 
 main {
   min-height: 100vh; }

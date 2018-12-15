@@ -29,6 +29,21 @@ body{
     margin-left: 2%;
     color: rgb(200,200,200)
 }
+.infomsg ul li a{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-left: 2%;
+    color: rgb(200,200,200);
+    text-decoration: none;
+
+}
+
+.infomsg ul li a:hover{
+
+    color: rgb(85, 182, 238);
+    text-decoration: none;
+
+}
 
 .indexlabel{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
@@ -80,7 +95,7 @@ body{
 
 .infoindex ul li a:hover{
     text-decoration: none;
-    color: rgb(216, 217, 218);
+    color: rgb(85, 182, 238);
 }
 
 

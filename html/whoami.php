@@ -7,6 +7,4 @@
 
 <?php require_once 'includes/footerPages/whoamiBody.php';?>
 
-
-
 <?php require_once 'includes/footer.php';?>
