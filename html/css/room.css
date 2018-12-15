@@ -8,19 +8,27 @@
   grid-row-start: 1;
   grid-column-end: 2;
   grid-row-end: 2;
-  background-color: #397a65; }
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #a01782, #272727); }
 
 .mainRoom .chat {
   grid-column-start: 2;
   grid-row-start: 1;
   grid-column-end: 3;
   grid-row-end: 3;
-  background-color: #a7770f; }
+  border-left: 1px solid #5c5a5a;
+  background-color: #141414; }
 
 .mainRoom .infoRoom {
-  background-color: #4a1555; }
+  background-image: linear-gradient(to bottom, #272727, #1f2224);
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(3, 1fr); }
 
 video {
   size: 640px 480px; }
+
+/* ____________________________ */
 
 /*# sourceMappingURL=room.css.map */

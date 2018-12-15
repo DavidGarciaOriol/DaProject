@@ -1,7 +1,7 @@
 
 <div class="mainRoom">
 
-  <div class="video">;
+  <div class="video">
     
     <video controls>
     <source src="movie.mp4" type="video/mp4">
@@ -12,11 +12,44 @@
   </div>
 
   <div class="chat">
-    <h2> ASDFASDF </h2>
+    <h2> CHAT ROOM </h2>
   </div>
 
   <div class="infoRoom">
-    <h2> ASDF ASDF ASDF ASDF </h2>>
+
+    <div>
+
+      <div class="exitButton">
+
+        <a href=""> Abandonar la Sala </a>
+        
+      </div>
+
+    </div>
+
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+
+    <div>
+
+      <form>
+          <input type="url" id="watchUrl" name="watchUrl"
+          placeholder="https://youtube.com/watch?v=asdf1234ONE">
+      </form>
+
+    </div>
+
+    <div></div>
+    <div></div>
   </div>
 
 </div>

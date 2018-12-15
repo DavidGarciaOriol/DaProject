@@ -15,7 +15,11 @@
     grid-column-end: 2;
     grid-row-end: 2;
 
-    background-color: rgb(57, 122, 101)
+    display: flex;
+    justify-content: center;
+
+
+    background-image: linear-gradient(to bottom , rgb(160, 23, 130), rgb(39, 39, 39));    
 
 }
 
@@ -25,17 +29,31 @@
     grid-column-end: 3;
     grid-row-end: 3;
 
-    background-color: rgb(167, 119, 15);
+    border-left: 1px solid rgb(92, 90, 90);
+
+    background-color: rgb(20, 20, 20);
 }
 
 .mainRoom .infoRoom{
 
-    background-color: rgb(74, 21, 85);
+    background-image: linear-gradient(to bottom, rgb(39, 39, 39), rgb(31, 34, 36));
+
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,1fr);
 
 }
 
 video{
     
     size: 640px 480px;
+
+}
+
+/* ____________________________ */
+
+.infoRoom .watch{
+
+
 
 }
