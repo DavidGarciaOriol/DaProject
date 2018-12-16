@@ -33,4 +33,5 @@ Tiempo Empleado: Aproximadamente 100 ~ 120 horas.
 - Que los usuarios se registren y hagan login correctamente.
 - Página de perfil de usuario (on my way) para editar cada usuario sus parámetros.
 - Hacer funcionar el enlace que activa el reproductor.
-
+- Crear y establecer imágenes de fondo para cada tarjeta de género, apropiadas al mismo.
+- Crear y establecer un Banner de encabezado de página.
