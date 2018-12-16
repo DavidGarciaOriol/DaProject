@@ -1,31 +1,21 @@
-function createGenres(){
-    
-    var pop = new Genre("Pop");
-    var rock = new Genre("Rock");
-    var jazz = new Genre("Jazz");
-    var electronic = new Genre("Electronic");
-    var metal = new Genre("Metal");
-    var drumBass = new Genre("Drum & Bass");
-    var classic = new Genre("Classic");
+$(document).ready(function(){
 
-}
+    $(".indexgriditem").click(function(){
 
-function createRoom(){
+        let idname = $(this).attr('id');
+        //let maindiv = document.getElementById('roombody');
+        
+        window.location = "../html/room.php";
 
-    createGenres();
+        let thisRoom = new Room(10, 1, idname)
 
-    function generateRoom(Genre){
-
-        let maindiv = document.getElementById('roombody');
-            
-        for(let i = 1; 1>=15; i++){
-            if (i === 8){
-                let titlediv = $(`<div> <h2> SALA DE ${Genre.name()}  </h2></div>`)
-
-            } else{
-                let voiddiv = $('<div> </div>');
-                $(maindiv).append(voiddiv);
-            }
+        window.onload = function winLoad(event){
+            document.getElementById("roomTitle").innerHTML = `Sala de {$thisRoom.genre}`;
+            document.getElementById("roomTitle").setAttribute('background-color', 'blue');
         }
-    }
-}
+
+    });
+
+   
+
+});

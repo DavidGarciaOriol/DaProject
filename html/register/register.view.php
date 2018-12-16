@@ -2,7 +2,7 @@
 
 <main>
 
-    <form action="/DaProject/html/index.php" method="post">
+    <form action="" method="POST" novalidate>
 
         <div class="reg-content">
 

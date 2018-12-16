@@ -2,7 +2,7 @@
 
 <main>
 
-    <form action="/DaProject/html/index.html" method="post">
+    <form action="" method="POST" novalidate>
 
         <div class="content">
 

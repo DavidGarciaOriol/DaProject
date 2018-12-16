@@ -2,6 +2,12 @@
   display: grid;
   grid-template-columns: 5fr 1fr;
   grid-template-rows: 1fr 5fr; }
+  @media (max-width: 720px) {
+    .mainRoom {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 360px) {
+    .mainRoom {
+      grid-template-columns: repeat(2, 1fr); } }
 
 .mainRoom .video {
   grid-column-start: 1;
@@ -24,11 +30,83 @@
   background-image: linear-gradient(to bottom, #272727, #1f2224);
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  grid-template-rows: repeat(3, 1fr); }
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center; }
+  @media (max-width: 720px) {
+    .mainRoom .infoRoom {
+      grid-template-columns: repeat(2, 1fr); } }
+  @media (max-width: 360px) {
+    .mainRoom .infoRoom {
+      grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 720px) {
+  .mainRoom .voidDiv {
+    display: none; } }
+@media (max-width: 360px) {
+  .mainRoom .voidDiv {
+    display: none; } }
 
 video {
   size: 640px 480px; }
 
 /* ____________________________ */
+.infoRoom .exitButton {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  width: 150px;
+  height: 40px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 2px 3px 1px #0e0c0c;
+  transition-duration: 0.1s;
+  background-color: #ffffff; }
+
+.infoRoom .exitButton h3 {
+  color: #55b6ee;
+  text-decoration: none;
+  font-size: 1rem; }
+
+.infoRoom .exitButton:hover {
+  cursor: pointer;
+  box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.89), 2px 4px 6px 1px rgba(160, 23, 130, 0.603);
+  background-color: #55b6ee;
+  margin-right: 1px;
+  margin-top: -1px; }
+
+.infoRoom .exitButton:hover h3 {
+  color: white;
+  text-decoration: none;
+  font-size: 1rem; }
+
+.infoRoom div form {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  align-items: center; }
+
+.infoRoom div form label {
+  border: none;
+  width: 300px;
+  color: white;
+  margin-bottom: 10px; }
+
+.infoRoom div form input[type=url] {
+  border: none;
+  margin-left: 10px;
+  width: 300px;
+  border-bottom: 1px solid #4b4b4b;
+  background-image: linear-gradient(to bottom, #212325, #222425); }
+
+.infoRoom div form input[type=url]:focus {
+  border-bottom: 1px solid white;
+  background-image: linear-gradient(to bottom, #212325, #222425); }
 
 /*# sourceMappingURL=room.css.map */
