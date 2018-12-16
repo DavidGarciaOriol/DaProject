@@ -55,16 +55,10 @@
 
     @media(max-width: 720px){
         grid-template-columns: repeat(2,1fr);
-
-        
-        
     }
     
     @media(max-width: 360px){
         grid-template-columns: repeat(2,1fr);
-
-        
-        
     }
 
     justify-items: center;
@@ -74,9 +68,7 @@
 
 .mainRoom .voidDiv{
     @media(max-width: 720px){
-        display: none;
-
-        
+        display: none;   
     }
     
     @media(max-width: 360px){
@@ -85,9 +77,8 @@
 }
 
 video{
-    
-    size: 640px 480px;
-
+    width: 240px;
+    height: 160px;
 }
 
 /* ____________________________ */

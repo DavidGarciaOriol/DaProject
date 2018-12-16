@@ -24,8 +24,8 @@ function guardarLogin($db, $username, $status){
     $guardar_login = mysqli_query($db, $sql);
 }
 
-function userOwnsList($db, $user_id, $list_id) {
-    $sql = "SELECT * FROM lists WHERE id = $list_id AND user_id = $user_id LIMIT 1";
+function userOwnsCommunity($db, $user_id, $list_id) {
+    $sql = "SELECT * FROM comunidades WHERE id = $list_id AND user_id = $user_id LIMIT 1";
     $result = mysqli_query($db, $sql);
     if( mysqli_num_rows($result) == 0 ){
         return false;
@@ -34,7 +34,7 @@ function userOwnsList($db, $user_id, $list_id) {
 }
 
 function itemBelongsToList($db, $item_id, $list_id) {
-    $sql = "SELECT * FROM items WHERE id = $item_id AND list_id = $list_id LIMIT 1";
+    $sql = "SELECT * FROM comunidad WHERE id = $item_id AND list_id = $list_id LIMIT 1";
     $result = mysqli_query($db, $sql);
     if( mysqli_num_rows($result) == 0 ){
         return false;

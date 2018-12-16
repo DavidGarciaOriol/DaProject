@@ -35,9 +35,8 @@ class User{
 
 class Song{
 
-    constructor(id, link){
+    constructor(link){
 
-        this.id = id;
         this.link = link;
 
     }
@@ -48,14 +47,6 @@ class Song{
 
     set link(link){
         this._link = link;
-    }
-
-    get id(){
-        return this._id;
-    }
-
-    set id(id){
-        this._id = id;
     }
 
 }

@@ -49,14 +49,17 @@ body {
 .upButtom {
   display: flex;
   position: sticky;
-  top: 50%;
+  top: 70%;
   width: 40px;
   height: 40px;
   justify-content: center;
   align-items: center;
-  background-color: #55b6ee;
+  background-color: rgba(85, 182, 238, 0.199);
   border-radius: 180px;
   margin: 5%; }
+
+.upButtom:hover {
+  background-color: rgba(85, 182, 238, 0.788); }
 
 .upButtom .upper {
   position: inherit;
@@ -113,7 +116,8 @@ main {
   box-shadow: 1px 2px 3px 1px rgba(0, 0, 0, 0.89), 2px 4px 6px 1px rgba(160, 23, 130, 0.603);
   background-color: #55b6ee;
   margin-right: 1px;
-  margin-top: -1px; }
+  margin-top: -1px;
+  cursor: pointer; }
 
 .indexgriditem h4 {
   text-align: center;

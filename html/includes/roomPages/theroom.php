@@ -3,9 +3,9 @@
 
   <div class="video">
     
-    <video controls autoplay>
-      <source src="https://commons.wikimedia.org/wiki/File:Example.ogg" type="audio/mpeg">
-      <source src="https://commons.wikimedia.org/wiki/File:Example.ogg" type="audio/ogg">
+    <video id="video" controls autoplay>
+      <source id="videosrc" src="" type="audio/mpeg">
+      <source id="videosrc2" src="" type="audio/ogg">
     </video>
 
   </div>
@@ -40,10 +40,10 @@
 
     <div>
 
-      <form method="POST" action="">
+      <form>
           <label for="watchUrl">Música (Enlace)</label>
           <input type="url" id="watchUrl" name="watchUrl"
-          placeholder="https://youtube.com/watch?v=asdf1234ONE">
+          placeholder="youtube.com/watch?v=1234asdfqwe">
       </form>
 
     </div>

@@ -48,7 +48,8 @@
     display: none; } }
 
 video {
-  size: 640px 480px; }
+  width: 240px;
+  height: 160px; }
 
 /* ____________________________ */
 .infoRoom .exitButton {

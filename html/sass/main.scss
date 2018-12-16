@@ -62,15 +62,19 @@ body{
     display: flex;
 
     position: sticky;
-    top: 50%;
+    top: 70%;
     width: 40px;
     height: 40px;
     justify-content: center;
     align-items: center;
-    background-color: rgb(85, 182, 238);
+    background-color: rgba(85, 182, 238, 0.199);
 
     border-radius: 180px;
     margin: 5%;
+}
+
+.upButtom:hover{
+    background-color:  rgba(85, 182, 238, 0.788);
 }
 
 .upButtom .upper{
@@ -135,6 +139,7 @@ main{
     transition-duration: 0.1s;
     background-color: #ffffff;
     resize: none;
+    
 
 }
 
@@ -143,6 +148,7 @@ main{
     background-color: rgb(85, 182, 238);
     margin-right: 1px;
     margin-top: -1px;
+    cursor: pointer;
 
 
 }
