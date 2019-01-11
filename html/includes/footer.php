@@ -8,7 +8,7 @@
     <div class="footerlinks" id="lFoot">
 
       <!-- Links -->
-      <h5>Información & Legal</h5>
+      <h5>Información</h5>
 
       <ul class="footerlist">
         <li>
