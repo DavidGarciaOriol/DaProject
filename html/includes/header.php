@@ -5,8 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
 
-    <!-- Bootstrap CSS --><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/header.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/section.css">
@@ -15,10 +16,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/regForm.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/footer.css">
     <script src="https://togetherjs.com/togetherjs-min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="../javascript/together_config.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="../javascript/main.js"></script>
-    <script src="../javascript/room.js"></script>
+    <script src="javascript/main.js"></script>
+    <script src="javascript/room.js"></script>
 
     
     <title>TogeDJer</title>
