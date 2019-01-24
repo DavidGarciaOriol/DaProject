@@ -15,10 +15,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/logForm.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/regForm.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?=BASE_URL?>/css/footer.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://togetherjs.com/togetherjs-min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
     <script src="../javascript/together_config.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
     <script src="javascript/main.js"></script>
     <script src="javascript/room.js"></script>
 
@@ -46,7 +47,7 @@
                     <button id="start-togetherjs">Start TogetherJS</button>
                     </li>-->
                     <li class="nav-item">
-                        <a class="login-item" href="<?=BASE_URL?>/login/login.php">Login</a>
+                        <a class="login-item link-important" href="<?=BASE_URL?>/login/login.php">Login</a>
                     </li>
                     <li class="nav-item">
                         <a class="login-item link-important" href="<?=BASE_URL?>/register/register.php">Registrar</a>
